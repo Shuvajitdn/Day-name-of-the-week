@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 90vh;
+    background: #0a9c93;
+    font-family: sans-serif;
+}
+.container {
+    background: white;
+    border-radius: 7px;
+    width: 400px;
+    padding: 15px;
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+    color: #3d353d;
+}
+#weekday {
+    font-size: 2.3rem;
+    color: #0650ac;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+#quote {
+    font-size: 1.8rem;
+    color: #133030;
+    margin-top: 20px;
+}
